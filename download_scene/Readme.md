@@ -3,7 +3,7 @@ ILLUSION様のコイカツサンシャインの公式アップローダーにア
 http://upks.illusion.jp/list/scene
 
 # How to use - 使い方
-* download_scene.py をダウンロードして下さい。
+* download_scene.py をダウンロードする。
 * pythonをインストールする https://www.python.org/downloads/
 * コマンドプロンプトを開き、pipコマンドで必要なライブラリをinstallする
   ```python
