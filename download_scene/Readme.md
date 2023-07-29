@@ -11,6 +11,7 @@ http://upks.illusion.jp/list/scene
   ```
 * コマンドプロンプトから download_scene.py のあるフォルダに移動し、以下のコマンドを実行する。
   ```python
+  cd フォルダ名
   python download_scene.py
   ```
 * ダウンロードが開始されるので、終了まで待つ (1時間程度)
