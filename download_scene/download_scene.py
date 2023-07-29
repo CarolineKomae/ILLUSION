@@ -19,6 +19,8 @@ def main():
     # ダウンロード開始
     for i in range(start, stop + 1):
         download_scene_by_number(i)
+    
+    print('シーンのダウンロードが全て完了しました。')
 
 # Windowsでファイル名に使用できない文字を全角に置き換え
 def replace_invalid_chars_with_fullwidth(text):
