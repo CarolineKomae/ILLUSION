@@ -5,12 +5,12 @@ http://upks.illusion.jp/list/scene
 # How to use - 使い方
 * download_scene.py をダウンロードする。
 * pythonをインストールする https://www.python.org/downloads/
-* コマンドプロンプトを開き、pipコマンドで必要なライブラリをinstallする
+* コマンドプロンプトを開き、pipコマンドで必要なライブラリをinstallする。
   ```python
   pip install beautifulsoup4
   pip install requests
   ```
-* コマンドプロンプトから download_scene.py のあるフォルダに移動し、以下のコマンドを実行する。
+* コマンドプロンプトから download_scene.py のあるフォルダに移動し、download_scene.py を実行する。
   ```python
   cd フォルダ名
   python download_scene.py
