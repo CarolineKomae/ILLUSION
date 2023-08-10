@@ -19,6 +19,10 @@ http://upks.illusion.jp/list/scene
 * 「シーンのダウンロードが全て完了しました。」が出たら完了。
 * 取得したシーンは scene\作者名\タイトル.png の名前で保存される。
 
+## How to resume from the middle of the process - 途中から再開したい場合
+* download_scene.py の 16行目にある "start=1" の番号を変更し、download_scene.py を再実行する。
+* 指定したページ番号から取得が開始される。
+
 # Notes - 注意事項
 * このツールはWindows環境での動作を前提としています。
 * このツールは個人で作成したものであり、全ての環境での動作は保証しておりません。
