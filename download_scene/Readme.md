@@ -27,7 +27,7 @@ http://upks.illusion.jp/list/scene
 ダウンロードしたSDをブラウザで表示するための簡易ツールです。sceneフォルダがある場所に配置して、以下のhtmlファイルをブラウザで表示して下さい。<br>
 一度にすべてのSDを表示させるため、メモリをかなり消費（5GB程度）するので注意して下さい。
 * scene_info_kks.html
-* scene_info_kks_org.html (オリジナルのファイル名で取得した人用 - 動作未確認)
+* scene_info_kks_org.html (オリジナルのファイル名で取得した人用 - sceneフォルダ直下に取得したSDを入れて下さい)
 
 
 # Notes - 注意事項
