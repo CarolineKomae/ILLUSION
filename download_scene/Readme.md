@@ -2,6 +2,12 @@
 ILLUSION様のコイカツサンシャインの公式アップローダーにアップされているシーンデータをダウンロードするツールです。<br>
 http://upks.illusion.jp/list/scene
 
+## File viewer - ファイルビューア (2023/08/23 追加)
+ダウンロードしたSDをブラウザで表示するための簡易ツールです。sceneフォルダがある場所に配置して、以下のhtmlファイルをブラウザで表示して下さい。<br>
+一度にすべてのSDを表示させるため、メモリをかなり消費（5GB程度）するので注意して下さい。
+* scene_info_kks.html
+* scene_info_kks_org.html (オリジナルのファイル名で取得した人用 - sceneフォルダ直下に取得したSDを入れて下さい)
+
 # How to use - 使い方
 * download_scene.py をダウンロードする。
 * pythonをインストールする https://www.python.org/downloads/
@@ -22,13 +28,6 @@ http://upks.illusion.jp/list/scene
 ## How to resume from the middle of the process - 途中から再開したい場合
 * download_scene.py の 16行目にある "start=1" の番号を変更し、download_scene.py を再実行する。
 * 指定したページ番号から取得が開始される。
-
-## File viewer - ファイルビューア (2023/08/23 追加)
-ダウンロードしたSDをブラウザで表示するための簡易ツールです。sceneフォルダがある場所に配置して、以下のhtmlファイルをブラウザで表示して下さい。<br>
-一度にすべてのSDを表示させるため、メモリをかなり消費（5GB程度）するので注意して下さい。
-* scene_info_kks.html
-* scene_info_kks_org.html (オリジナルのファイル名で取得した人用 - sceneフォルダ直下に取得したSDを入れて下さい)
-
 
 # Notes - 注意事項
 * このツールはWindows環境での動作を前提としています。
