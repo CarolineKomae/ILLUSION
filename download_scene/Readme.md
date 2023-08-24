@@ -4,10 +4,11 @@ http://upks.illusion.jp/list/scene
 
 ## File viewer - ファイルビューア (2023/08/23 追加)
 ダウンロードしたSDをブラウザで表示するための簡易ツールです。以下のhtmlファイルをsceneフォルダがある場所(sceneフォルダ内ではありません)に配置して、ブラウザで表示して下さい。<br>
-一度にすべてのSDを表示させるため、メモリをかなり消費（5GB程度）するので注意して下さい。
-* scene_info_kks.html
-* scene_info_kks_org.html (オリジナルのファイル名で取得した人用 - sceneフォルダ直下に取得したSDを入れて下さい)
-* scene_info_kk.html (無印コイカツ用 - sceneフォルダ直下に取得したSDを入れて下さい)
+一度にすべてのSDを表示させるため、メモリをかなり消費（5GB程度）するので注意して下さい。<br>
+同フォルダに数字付きのHTMLファイルがありますが、こちらは500件ずつ表示するようにした分割版になります。
+* scene_viewer/koikatsu_sunshine/scene_info_kks.html
+* scene_viewer/koikatsu_sunshine/scene_info_kks_org.html (オリジナルのファイル名で取得した人用 - sceneフォルダ直下に取得したSDを入れて下さい)
+* scene_viewer/koikatsu/scene_info_kk.html (無印コイカツ用 - sceneフォルダ直下に取得したSDを入れて下さい)
 
 # How to use - 使い方
 * download_scene.py をダウンロードする。
